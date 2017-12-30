@@ -1,0 +1,37 @@
+{
+  "name": "eslutils",
+  "version": "0.1.0",
+  "description": "Common utilities used in esiglabs projects",
+  "main": "build/index.js",
+  "module": "src/index.js",
+  "jsnext:main": "src/index.js",
+  "scripts": {
+    "build": "babel src --compact=false --out-dir build --source-maps",
+    "generate-docs": "jsdoc --destination doc/ src/",
+    "lint": "eslint src",
+    "postinstall": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fotisl/eslutils.git"
+  },
+  "keywords": [
+    "PKI",
+    "X.509",
+    "WebCrypto"
+  ],
+  "author": "Fotis Loukos <me@fotisl.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/fotisl/eslutils/issues"
+  },
+  "homepage": "https://github.com/fotisl/eslutils#readme",
+  "devDependencies": {
+    "babel-cli": "latest",
+    "babel-preset-env": "latest",
+    "jsdoc": "^3.5.5"
+  },
+  "dependencies": {
+    "pkijs": "^2.1.12"
+  }
+}
