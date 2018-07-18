@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fotisl/eslutils.git"
+    "url": "git+https://github.com/esiglabs/eslutils.git"
   },
   "keywords": [
     "PKI",
@@ -23,9 +23,9 @@
   "author": "Fotis Loukos <me@fotisl.com>",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/fotisl/eslutils/issues"
+    "url": "https://github.com/esiglabs/eslutils/issues"
   },
-  "homepage": "https://github.com/fotisl/eslutils#readme",
+  "homepage": "https://github.com/esiglabs/eslutils#readme",
   "devDependencies": {
     "babel-cli": "latest",
     "babel-preset-env": "latest",
