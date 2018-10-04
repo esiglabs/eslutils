@@ -1,6 +1,6 @@
 {
   "name": "eslutils",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Common utilities used in esiglabs projects",
   "main": "build/index.js",
   "module": "src/index.js",
