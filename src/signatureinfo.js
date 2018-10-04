@@ -62,10 +62,20 @@ export class SignatureInfo {
      */
     this.cert = null;
     /**
+     * @type {Array<pkijs.Certificate>}
+     * @description A bundle of all certificates included in the signed object.
+     */
+    this.certBundle = [];
+    /**
      * @type {pkijs.Certificate}
      * @description The timestamp authority's certificate.
      */
     this.tsCert = null;
+    /**
+     * @type {Array<pkijs.Certificate>}
+     * @description A bundle of all certificates included in the timestamp.
+     */
+    this.tsCertBundle = [];
   }
 
   /**
